@@ -11,7 +11,8 @@ namespace MohawkGame2D
     public class Game
     {
         // Place your variables here:
-
+        Sound sound = Audio.LoadSound("");
+        Sound target = Audio.LoadSound("");
 
         /// <summary>
         ///     Setup runs once before the game loop begins.
@@ -27,7 +28,7 @@ namespace MohawkGame2D
         /// </summary>
         public void Update()
         {
-
+            //Audio.Play(sound);
         }
     }
 
