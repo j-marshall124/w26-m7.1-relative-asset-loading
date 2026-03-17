@@ -18,7 +18,8 @@ namespace MohawkGame2D
         /// </summary>
         public void Setup()
         {
-
+            Window.SetTitle("Asset Load Demo");
+            Window.SetSize(400, 400);
         }
 
         /// <summary>
